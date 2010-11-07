@@ -93,8 +93,9 @@ module ServiceCrud
     respond_to do |format|
       if @model.send self.class.orm_methods.save
         run_service_crud_after_callbacks @model
-        format.xml  { render :xml => @model, :status => :created, :location => @model }
-        format.json { render :json => @model, :status => :created, :location => @model }
+        location = "/#{controller_name}/#{@model.id}"
+        format.xml  { render :xml => @model, :status => :created, :location => location }
+        format.json { render :json => @model, :status => :created, :location => location }
       else
         format.xml  { render :xml => @model.errors, :status => :unprocessable_entity }
         format.json { render :json => {:errors => @model.errors.to_a}.to_json, :status => :unprocessable_entity }
@@ -146,7 +147,7 @@ module ServiceCrud
   def run_service_crud_callbacks(service_crud_callbacks, model)
     service_crud_callbacks.each do |method|
       method.call(model) if method.respond_to?(:call) # if it's a proc
-      self.send method if method.kind_of?(Symbol)
+      self.send method, model if method.kind_of?(Symbol)
     end
   end
 end

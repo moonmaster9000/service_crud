@@ -738,3 +738,1606 @@ Started DELETE "/books/be8903d3b2f29cd350a8bd5043cc31e0.json" for 127.0.0.1 at S
   Processing by BooksController#destroy as JSON
   Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cc31e0"}
 Completed 200 OK in 11ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:35:55 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 82ms (Views: 24.1ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:35:55 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 81ms (Views: 70.2ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043eb8d33.xml" for 127.0.0.1 at Sun Nov 07 13:35:56 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043eb8d33"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043eb83d8.json" for 127.0.0.1 at Sun Nov 07 13:35:56 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043eb83d8"}
+Completed 200 OK in 6ms (Views: 0.5ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:35:56 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.2ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:35:56 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 6ms (Views: 0.2ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:35:56 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:35:56 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.6ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:35:56 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.0ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:35:57 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.6ms)
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043eb5465.xml" for 127.0.0.1 at Sun Nov 07 13:35:57 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043eb5465", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043eb4582.xml" for 127.0.0.1 at Sun Nov 07 13:35:57 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043eb4582", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 1.2ms)
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043eb3a97.json" for 127.0.0.1 at Sun Nov 07 13:35:57 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043eb3a97", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043eb2d89.json" for 127.0.0.1 at Sun Nov 07 13:35:57 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043eb2d89", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.2ms)
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043eb28f0.xml" for 127.0.0.1 at Sun Nov 07 13:35:57 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043eb28f0"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043eb2809.json" for 127.0.0.1 at Sun Nov 07 13:35:57 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043eb2809"}
+Completed 200 OK in 11ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:35:57 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 80ms (Views: 22.8ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:35:58 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 81ms (Views: 69.7ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043ea8672.xml" for 127.0.0.1 at Sun Nov 07 13:35:58 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ea8672"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043ea7cb0.json" for 127.0.0.1 at Sun Nov 07 13:35:58 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ea7cb0"}
+Completed 200 OK in 6ms (Views: 0.5ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:35:58 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:35:58 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:35:58 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:35:58 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:35:59 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:35:59 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.0ms)
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043ea789f.xml" for 127.0.0.1 at Sun Nov 07 13:35:59 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ea789f", "my_book"=>{"title"=>"My Book Title"}}
+Completed   in 5ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043ea68e6.xml" for 127.0.0.1 at Sun Nov 07 13:35:59 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ea68e6", "my_book"=>{"title"=>nil}}
+Completed   in 5ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043ea5b82.json" for 127.0.0.1 at Sun Nov 07 13:35:59 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ea5b82", "my_book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043ea4eef.json" for 127.0.0.1 at Sun Nov 07 13:35:59 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ea4eef", "my_book"=>{"title"=>nil}}
+Completed   in 5ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043ea43ec.xml" for 127.0.0.1 at Sun Nov 07 13:35:59 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ea43ec"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043ea3f0c.json" for 127.0.0.1 at Sun Nov 07 13:35:59 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ea3f0c"}
+Completed 200 OK in 11ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:37:20 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 38ms (Views: 25.9ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:37:20 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 81ms (Views: 70.2ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f0a4d47.xml" for 127.0.0.1 at Sun Nov 07 13:37:20 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0a4d47"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f0a4c02.json" for 127.0.0.1 at Sun Nov 07 13:37:20 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0a4c02"}
+Completed 200 OK in 6ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:37:20 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.2ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:37:21 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:37:21 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:37:21 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.6ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:37:21 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.3ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:37:21 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.9ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f0a2864.xml" for 127.0.0.1 at Sun Nov 07 13:37:21 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0a2864", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f0a19ac.xml" for 127.0.0.1 at Sun Nov 07 13:37:21 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0a19ac", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 27ms (Views: 1.3ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f0a17d0.json" for 127.0.0.1 at Sun Nov 07 13:37:22 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0a17d0", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f0a0bcf.json" for 127.0.0.1 at Sun Nov 07 13:37:22 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0a0bcf", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 0.2ms)
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f0a0bc3.xml" for 127.0.0.1 at Sun Nov 07 13:37:22 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0a0bc3"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f0a0322.json" for 127.0.0.1 at Sun Nov 07 13:37:22 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0a0322"}
+Completed 200 OK in 10ms
+
+
+Started GET "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:37:22 -0500 2010
+  Processing by MyBooksController#index as JSON
+Completed 200 OK in 82ms (Views: 23.7ms)
+
+
+Started GET "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:37:22 -0500 2010
+  Processing by MyBooksController#index as XML
+Completed 200 OK in 88ms (Views: 76.8ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81f097353.xml" for 127.0.0.1 at Sun Nov 07 13:37:23 -0500 2010
+  Processing by MyBooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f097353"}
+Completed 200 OK in 6ms (Views: 1.1ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81f096ab5.json" for 127.0.0.1 at Sun Nov 07 13:37:23 -0500 2010
+  Processing by MyBooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f096ab5"}
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:37:23 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:37:23 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:37:23 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.1ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:37:23 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.6ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:37:23 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:37:23 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.6ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f094539.xml" for 127.0.0.1 at Sun Nov 07 13:37:24 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f094539", "my_book"=>{"title"=>"My Book Title"}}
+Completed   in 5ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f0940d8.xml" for 127.0.0.1 at Sun Nov 07 13:37:24 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0940d8", "my_book"=>{"title"=>nil}}
+Completed   in 5ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f0932d3.json" for 127.0.0.1 at Sun Nov 07 13:37:24 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0932d3", "my_book"=>{"title"=>"My Book Title"}}
+Completed   in 5ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f09269f.json" for 127.0.0.1 at Sun Nov 07 13:37:24 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f09269f", "my_book"=>{"title"=>nil}}
+Completed   in 5ms
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81f0920a3.xml" for 127.0.0.1 at Sun Nov 07 13:37:24 -0500 2010
+  Processing by MyBooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f0920a3"}
+Completed 200 OK in 10ms
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81f091e1a.json" for 127.0.0.1 at Sun Nov 07 13:37:24 -0500 2010
+  Processing by MyBooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f091e1a"}
+Completed 200 OK in 11ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:39:45 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 38ms (Views: 25.5ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:39:46 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 193ms (Views: 69.4ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f29d396.xml" for 127.0.0.1 at Sun Nov 07 13:39:46 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f29d396"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f29c786.json" for 127.0.0.1 at Sun Nov 07 13:39:46 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f29c786"}
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:39:46 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.2ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:39:46 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 6ms (Views: 0.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:39:47 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.3ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:39:47 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.6ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:39:47 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.2ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:39:47 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.7ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f29abf5.xml" for 127.0.0.1 at Sun Nov 07 13:39:47 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f29abf5", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f29a9cc.xml" for 127.0.0.1 at Sun Nov 07 13:39:47 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f29a9cc", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 1.3ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f299b16.json" for 127.0.0.1 at Sun Nov 07 13:39:47 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f299b16", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f29985a.json" for 127.0.0.1 at Sun Nov 07 13:39:48 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f29985a", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms)
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f29933b.xml" for 127.0.0.1 at Sun Nov 07 13:39:48 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f29933b"}
+Completed 200 OK in 12ms
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f298737.json" for 127.0.0.1 at Sun Nov 07 13:39:48 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f298737"}
+Completed 200 OK in 11ms
+
+
+Started GET "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:39:48 -0500 2010
+  Processing by MyBooksController#index as JSON
+Completed 200 OK in 83ms (Views: 24.0ms)
+
+
+Started GET "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:39:48 -0500 2010
+  Processing by MyBooksController#index as XML
+Completed 200 OK in 82ms (Views: 70.7ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81f28d5a9.xml" for 127.0.0.1 at Sun Nov 07 13:39:48 -0500 2010
+  Processing by MyBooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f28d5a9"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81f28ca88.json" for 127.0.0.1 at Sun Nov 07 13:39:49 -0500 2010
+  Processing by MyBooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f28ca88"}
+Completed 200 OK in 6ms (Views: 0.4ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:39:49 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:39:49 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:39:49 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:39:49 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.7ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:39:49 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:39:49 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.7ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f28aa09.xml" for 127.0.0.1 at Sun Nov 07 13:39:49 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f28aa09", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 13ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f28a66c.xml" for 127.0.0.1 at Sun Nov 07 13:39:50 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f28a66c", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 1.2ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f289ba6.json" for 127.0.0.1 at Sun Nov 07 13:39:50 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f289ba6", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f289ab1.json" for 127.0.0.1 at Sun Nov 07 13:39:50 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f289ab1", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms)
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81f289496.xml" for 127.0.0.1 at Sun Nov 07 13:39:50 -0500 2010
+  Processing by MyBooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f289496"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81f2888f1.json" for 127.0.0.1 at Sun Nov 07 13:39:50 -0500 2010
+  Processing by MyBooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f2888f1"}
+Completed 200 OK in 10ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:40:38 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 37ms (Views: 25.0ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:40:38 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 81ms (Views: 70.2ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f4921e3.xml" for 127.0.0.1 at Sun Nov 07 13:40:39 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f4921e3"}
+Completed 200 OK in 7ms (Views: 1.4ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f4918ff.json" for 127.0.0.1 at Sun Nov 07 13:40:39 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f4918ff"}
+Completed 200 OK in 6ms (Views: 0.5ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:40:39 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.5ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:40:39 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:40:39 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 9ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:40:39 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.6ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:40:39 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:40:39 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 9ms (Views: 2.5ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f48f7a6.xml" for 127.0.0.1 at Sun Nov 07 13:40:40 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f48f7a6", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 12ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f48edef.xml" for 127.0.0.1 at Sun Nov 07 13:40:40 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f48edef", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 1.1ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f48e20a.json" for 127.0.0.1 at Sun Nov 07 13:40:40 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f48e20a", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f48dcf0.json" for 127.0.0.1 at Sun Nov 07 13:40:40 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f48dcf0", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.2ms)
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f48cf28.xml" for 127.0.0.1 at Sun Nov 07 13:40:40 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f48cf28"}
+Completed 200 OK in 12ms
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f48c7d5.json" for 127.0.0.1 at Sun Nov 07 13:40:40 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f48c7d5"}
+Completed 200 OK in 10ms
+
+
+Started GET "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:40:40 -0500 2010
+  Processing by MyBooksController#index as JSON
+Completed 200 OK in 90ms (Views: 23.1ms)
+
+
+Started GET "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:40:41 -0500 2010
+  Processing by MyBooksController#index as XML
+Completed 200 OK in 81ms (Views: 70.7ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81f480549.xml" for 127.0.0.1 at Sun Nov 07 13:40:41 -0500 2010
+  Processing by MyBooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f480549"}
+Completed 200 OK in 6ms (Views: 1.2ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81f480213.json" for 127.0.0.1 at Sun Nov 07 13:40:41 -0500 2010
+  Processing by MyBooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f480213"}
+Completed 200 OK in 6ms (Views: 0.5ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:40:41 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.2ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:40:41 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:40:41 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.2ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:40:41 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.7ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:40:42 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:40:42 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.5ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f47dc1d.xml" for 127.0.0.1 at Sun Nov 07 13:40:42 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f47dc1d", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f47d4d7.xml" for 127.0.0.1 at Sun Nov 07 13:40:42 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f47d4d7", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 10ms (Views: 1.2ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f47d01f.json" for 127.0.0.1 at Sun Nov 07 13:40:42 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f47d01f", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f47ca18.json" for 127.0.0.1 at Sun Nov 07 13:40:42 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f47ca18", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms)
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81f47bf4f.xml" for 127.0.0.1 at Sun Nov 07 13:40:42 -0500 2010
+  Processing by MyBooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f47bf4f"}
+Completed 200 OK in 10ms
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81f47bea8.json" for 127.0.0.1 at Sun Nov 07 13:40:43 -0500 2010
+  Processing by MyBooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f47bea8"}
+Completed 200 OK in 11ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:43:44 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 37ms (Views: 25.2ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:43:45 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 81ms (Views: 70.7ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f689095.xml" for 127.0.0.1 at Sun Nov 07 13:43:45 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f689095"}
+Completed 200 OK in 6ms (Views: 1.1ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f6884ca.json" for 127.0.0.1 at Sun Nov 07 13:43:45 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f6884ca"}
+Completed 200 OK in 6ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:43:45 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:43:45 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 6ms (Views: 0.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:43:45 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:43:45 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:43:46 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:43:46 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f6860ea.xml" for 127.0.0.1 at Sun Nov 07 13:43:46 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f6860ea", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 59ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f6854da.xml" for 127.0.0.1 at Sun Nov 07 13:43:46 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f6854da", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 1.2ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f68513e.json" for 127.0.0.1 at Sun Nov 07 13:43:46 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f68513e", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f684b13.json" for 127.0.0.1 at Sun Nov 07 13:43:46 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f684b13", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms)
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f683e06.xml" for 127.0.0.1 at Sun Nov 07 13:43:46 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f683e06"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f6835f7.json" for 127.0.0.1 at Sun Nov 07 13:43:47 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f6835f7"}
+Completed 200 OK in 11ms
+
+
+Started GET "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:43:47 -0500 2010
+  Processing by MyBooksController#index as JSON
+Completed 200 OK in 35ms (Views: 24.2ms)
+
+
+Started GET "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:43:47 -0500 2010
+  Processing by MyBooksController#index as XML
+Completed 200 OK in 39ms (Views: 27.6ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81f679a0e.xml" for 127.0.0.1 at Sun Nov 07 13:43:47 -0500 2010
+  Processing by MyBooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f679a0e"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81f678afb.json" for 127.0.0.1 at Sun Nov 07 13:43:47 -0500 2010
+  Processing by MyBooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f678afb"}
+Completed 200 OK in 6ms (Views: 0.4ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:43:47 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:43:47 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:43:48 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:43:48 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:43:48 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.1ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:43:48 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f675b3c.xml" for 127.0.0.1 at Sun Nov 07 13:43:49 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f675b3c", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f674e3a.xml" for 127.0.0.1 at Sun Nov 07 13:43:49 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f674e3a", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 1.2ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f674b6e.json" for 127.0.0.1 at Sun Nov 07 13:43:49 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f674b6e", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81f674b14.json" for 127.0.0.1 at Sun Nov 07 13:43:49 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f674b14", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 0.2ms)
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81f673fec.xml" for 127.0.0.1 at Sun Nov 07 13:43:49 -0500 2010
+  Processing by MyBooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f673fec"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81f6737e0.json" for 127.0.0.1 at Sun Nov 07 13:43:49 -0500 2010
+  Processing by MyBooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f6737e0"}
+Completed 200 OK in 11ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:44:09 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 37ms (Views: 25.0ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:44:09 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 82ms (Views: 70.5ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f884552.xml" for 127.0.0.1 at Sun Nov 07 13:44:09 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f884552"}
+Completed 200 OK in 7ms (Views: 1.0ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81f883d7f.json" for 127.0.0.1 at Sun Nov 07 13:44:09 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f883d7f"}
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:44:10 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:44:10 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 6ms (Views: 0.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:44:10 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:44:10 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:44:10 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.2ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:44:10 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 7ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f8823d8.xml" for 127.0.0.1 at Sun Nov 07 13:44:10 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f8823d8", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f8814aa.xml" for 127.0.0.1 at Sun Nov 07 13:44:11 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f8814aa", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 1.1ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f880c8f.json" for 127.0.0.1 at Sun Nov 07 13:44:11 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f880c8f", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81f880b58.json" for 127.0.0.1 at Sun Nov 07 13:44:11 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f880b58", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms)
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f8802be.xml" for 127.0.0.1 at Sun Nov 07 13:44:11 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f8802be"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81f880157.json" for 127.0.0.1 at Sun Nov 07 13:44:11 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81f880157"}
+Completed 200 OK in 11ms
+
+
+Started GET "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:44:11 -0500 2010
+  Processing by MyBooksController#index as JSON
+Completed 200 OK in 36ms (Views: 24.4ms)
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:44:22 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 37ms (Views: 25.3ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:44:22 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 88ms (Views: 76.9ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81fa66712.xml" for 127.0.0.1 at Sun Nov 07 13:44:23 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa66712"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81fa660d0.json" for 127.0.0.1 at Sun Nov 07 13:44:23 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa660d0"}
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:44:23 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:44:23 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:44:23 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 0.4ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:44:23 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 0.9ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:44:23 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.3ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:44:24 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 0.9ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fa62fbf.xml" for 127.0.0.1 at Sun Nov 07 13:44:24 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa62fbf", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 12ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fa62257.xml" for 127.0.0.1 at Sun Nov 07 13:44:24 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa62257", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 1.2ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fa612e3.json" for 127.0.0.1 at Sun Nov 07 13:44:24 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa612e3", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fa60ae6.json" for 127.0.0.1 at Sun Nov 07 13:44:24 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa60ae6", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms)
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81fa6037e.xml" for 127.0.0.1 at Sun Nov 07 13:44:24 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa6037e"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81fa60132.json" for 127.0.0.1 at Sun Nov 07 13:44:24 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa60132"}
+Completed 200 OK in 11ms
+
+
+Started GET "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:44:25 -0500 2010
+  Processing by MyBooksController#index as JSON
+Completed 200 OK in 82ms (Views: 24.1ms)
+
+
+Started GET "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:44:25 -0500 2010
+  Processing by MyBooksController#index as XML
+Completed 200 OK in 82ms (Views: 71.5ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81fa56513.xml" for 127.0.0.1 at Sun Nov 07 13:44:25 -0500 2010
+  Processing by MyBooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa56513"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81fa559ea.json" for 127.0.0.1 at Sun Nov 07 13:44:25 -0500 2010
+  Processing by MyBooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa559ea"}
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:44:25 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 0.4ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:44:25 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:44:26 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 0.6ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:44:26 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:44:26 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:44:26 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 0.9ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fa53864.xml" for 127.0.0.1 at Sun Nov 07 13:44:26 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa53864", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fa533f5.xml" for 127.0.0.1 at Sun Nov 07 13:44:26 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa533f5", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 1.4ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fa5242b.json" for 127.0.0.1 at Sun Nov 07 13:44:26 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa5242b", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fa51afc.json" for 127.0.0.1 at Sun Nov 07 13:44:26 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa51afc", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.2ms)
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81fa519be.xml" for 127.0.0.1 at Sun Nov 07 13:44:27 -0500 2010
+  Processing by MyBooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa519be"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81fa515af.json" for 127.0.0.1 at Sun Nov 07 13:44:27 -0500 2010
+  Processing by MyBooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fa515af"}
+Completed 200 OK in 11ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:45:31 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 38ms (Views: 25.4ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:45:31 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 82ms (Views: 71.2ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81fc53bb2.xml" for 127.0.0.1 at Sun Nov 07 13:45:31 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc53bb2"}
+Completed 200 OK in 8ms (Views: 1.5ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81fc53001.json" for 127.0.0.1 at Sun Nov 07 13:45:31 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc53001"}
+Completed 200 OK in 6ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:45:32 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 0.5ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:45:32 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 6ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:45:32 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 0.6ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:45:32 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.5ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:45:32 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.3ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:45:33 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fc50b6b.xml" for 127.0.0.1 at Sun Nov 07 13:45:33 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc50b6b", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 13ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fc5026c.xml" for 127.0.0.1 at Sun Nov 07 13:45:33 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc5026c", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 1.5ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fc4f449.json" for 127.0.0.1 at Sun Nov 07 13:45:33 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc4f449", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fc4f30f.json" for 127.0.0.1 at Sun Nov 07 13:45:33 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc4f30f", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 0.3ms)
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81fc4eccd.xml" for 127.0.0.1 at Sun Nov 07 13:45:33 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc4eccd"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81fc4df19.json" for 127.0.0.1 at Sun Nov 07 13:45:33 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc4df19"}
+Completed 200 OK in 11ms
+
+
+Started GET "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:45:34 -0500 2010
+  Processing by MyBooksController#index as JSON
+Completed 200 OK in 79ms (Views: 22.9ms)
+
+
+Started GET "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:45:34 -0500 2010
+  Processing by MyBooksController#index as XML
+Completed 200 OK in 80ms (Views: 70.0ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81fc448e0.xml" for 127.0.0.1 at Sun Nov 07 13:45:34 -0500 2010
+  Processing by MyBooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc448e0"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81fc440a7.json" for 127.0.0.1 at Sun Nov 07 13:45:34 -0500 2010
+  Processing by MyBooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc440a7"}
+Completed 200 OK in 6ms (Views: 0.5ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:45:34 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 6ms (Views: 0.5ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:45:35 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:45:35 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 6ms (Views: 0.4ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:45:35 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:45:35 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:45:35 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fc41754.xml" for 127.0.0.1 at Sun Nov 07 13:45:35 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc41754", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fc4122e.xml" for 127.0.0.1 at Sun Nov 07 13:45:35 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc4122e", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 1.2ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fc40867.json" for 127.0.0.1 at Sun Nov 07 13:45:35 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc40867", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fc40038.json" for 127.0.0.1 at Sun Nov 07 13:45:36 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc40038", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.2ms)
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81fc3f79f.xml" for 127.0.0.1 at Sun Nov 07 13:45:36 -0500 2010
+  Processing by MyBooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc3f79f"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81fc3ead7.json" for 127.0.0.1 at Sun Nov 07 13:45:36 -0500 2010
+  Processing by MyBooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fc3ead7"}
+Completed 200 OK in 11ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:45:46 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 37ms (Views: 25.2ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:45:46 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 80ms (Views: 68.8ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81fe361c4.xml" for 127.0.0.1 at Sun Nov 07 13:45:46 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe361c4"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/books/a1a8563ecc0aea3a321ac1e81fe35715.json" for 127.0.0.1 at Sun Nov 07 13:45:46 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe35715"}
+Completed 200 OK in 6ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:45:47 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 0.5ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:45:47 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:45:47 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 6ms (Views: 0.5ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:45:47 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:45:47 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.2ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:45:47 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.2ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fe339a6.xml" for 127.0.0.1 at Sun Nov 07 13:45:47 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe339a6", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fe33980.xml" for 127.0.0.1 at Sun Nov 07 13:45:47 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe33980", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 12ms (Views: 1.8ms)
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fe32d16.json" for 127.0.0.1 at Sun Nov 07 13:45:48 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe32d16", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/a1a8563ecc0aea3a321ac1e81fe32809.json" for 127.0.0.1 at Sun Nov 07 13:45:48 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe32809", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 58ms (Views: 0.2ms)
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81fe31c36.xml" for 127.0.0.1 at Sun Nov 07 13:45:48 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe31c36"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/a1a8563ecc0aea3a321ac1e81fe314a1.json" for 127.0.0.1 at Sun Nov 07 13:45:48 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe314a1"}
+Completed 200 OK in 10ms
+
+
+Started GET "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:45:48 -0500 2010
+  Processing by MyBooksController#index as JSON
+Completed 200 OK in 84ms (Views: 23.9ms)
+
+
+Started GET "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:45:48 -0500 2010
+  Processing by MyBooksController#index as XML
+Completed 200 OK in 88ms (Views: 74.9ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81fe267f6.xml" for 127.0.0.1 at Sun Nov 07 13:45:49 -0500 2010
+  Processing by MyBooksController#show as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe267f6"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/my_books/a1a8563ecc0aea3a321ac1e81fe259f8.json" for 127.0.0.1 at Sun Nov 07 13:45:49 -0500 2010
+  Processing by MyBooksController#show as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe259f8"}
+Completed 200 OK in 6ms (Views: 0.6ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:45:50 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 6ms (Views: 0.5ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:45:50 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms)
+
+
+Started POST "/my_books.json" for 127.0.0.1 at Sun Nov 07 13:45:50 -0500 2010
+  Processing by MyBooksController#create as JSON
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 0.6ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:45:50 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:45:50 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms)
+
+
+Started POST "/my_books.xml" for 127.0.0.1 at Sun Nov 07 13:45:50 -0500 2010
+  Processing by MyBooksController#create as XML
+  Parameters: {"my_book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.0ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fe23a4a.xml" for 127.0.0.1 at Sun Nov 07 13:45:51 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe23a4a", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fe230d3.xml" for 127.0.0.1 at Sun Nov 07 13:45:51 -0500 2010
+  Processing by MyBooksController#update as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe230d3", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 9ms (Views: 1.4ms)
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fe227a7.json" for 127.0.0.1 at Sun Nov 07 13:45:51 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe227a7", "my_book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/my_books/a1a8563ecc0aea3a321ac1e81fe21c84.json" for 127.0.0.1 at Sun Nov 07 13:45:51 -0500 2010
+  Processing by MyBooksController#update as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe21c84", "my_book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms)
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81fe20cb0.xml" for 127.0.0.1 at Sun Nov 07 13:45:51 -0500 2010
+  Processing by MyBooksController#destroy as XML
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe20cb0"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/my_books/a1a8563ecc0aea3a321ac1e81fe1fdc2.json" for 127.0.0.1 at Sun Nov 07 13:45:51 -0500 2010
+  Processing by MyBooksController#destroy as JSON
+  Parameters: {"id"=>"a1a8563ecc0aea3a321ac1e81fe1fdc2"}
+Completed 200 OK in 11ms
