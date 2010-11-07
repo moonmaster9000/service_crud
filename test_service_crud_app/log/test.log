@@ -1,0 +1,740 @@
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:10:20 -0500 2010
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:10:20 -0500 2010
+
+
+Started GET "/books/.xml" for 127.0.0.1 at Sun Nov 07 13:10:20 -0500 2010
+
+
+Started GET "/books/.json" for 127.0.0.1 at Sun Nov 07 13:10:20 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:10:20 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:10:21 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:10:21 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:10:21 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:10:21 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:10:21 -0500 2010
+
+
+Started PUT "/books/.xml" for 127.0.0.1 at Sun Nov 07 13:10:21 -0500 2010
+
+
+Started PUT "/books/.xml" for 127.0.0.1 at Sun Nov 07 13:10:21 -0500 2010
+
+
+Started PUT "/books/.json" for 127.0.0.1 at Sun Nov 07 13:10:21 -0500 2010
+
+
+Started PUT "/books/.json" for 127.0.0.1 at Sun Nov 07 13:10:22 -0500 2010
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:10:54 -0500 2010
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:10:54 -0500 2010
+
+
+Started GET "/books/c66840b19c0fd17e0a512e697ad4544e.xml" for 127.0.0.1 at Sun Nov 07 13:10:55 -0500 2010
+
+
+Started GET "/books/c66840b19c0fd17e0a512e697ad44784.json" for 127.0.0.1 at Sun Nov 07 13:10:55 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:10:55 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:10:55 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:10:55 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:10:55 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:10:56 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:10:56 -0500 2010
+
+
+Started PUT "/books/c66840b19c0fd17e0a512e697ad442e3.xml" for 127.0.0.1 at Sun Nov 07 13:10:56 -0500 2010
+
+
+Started PUT "/books/c66840b19c0fd17e0a512e697ad43f1a.xml" for 127.0.0.1 at Sun Nov 07 13:10:56 -0500 2010
+
+
+Started PUT "/books/c66840b19c0fd17e0a512e697ad432d2.json" for 127.0.0.1 at Sun Nov 07 13:10:56 -0500 2010
+
+
+Started PUT "/books/c66840b19c0fd17e0a512e697ad42aa6.json" for 127.0.0.1 at Sun Nov 07 13:10:56 -0500 2010
+
+
+Started DELETE "/books/c66840b19c0fd17e0a512e697ad41d9a.xml" for 127.0.0.1 at Sun Nov 07 13:10:56 -0500 2010
+
+
+Started DELETE "/books/c66840b19c0fd17e0a512e697ad415cc.json" for 127.0.0.1 at Sun Nov 07 13:10:57 -0500 2010
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:11:56 -0500 2010
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:11:56 -0500 2010
+
+
+Started GET "/books/c66840b19c0fd17e0a512e697af318e4.xml" for 127.0.0.1 at Sun Nov 07 13:11:56 -0500 2010
+
+
+Started GET "/books/c66840b19c0fd17e0a512e697af30e81.json" for 127.0.0.1 at Sun Nov 07 13:11:56 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:11:57 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:11:57 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:11:57 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:11:57 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:11:57 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:11:57 -0500 2010
+
+
+Started PUT "/books/c66840b19c0fd17e0a512e697af30da4.xml" for 127.0.0.1 at Sun Nov 07 13:11:57 -0500 2010
+
+
+Started PUT "/books/c66840b19c0fd17e0a512e697af30a57.xml" for 127.0.0.1 at Sun Nov 07 13:11:57 -0500 2010
+
+
+Started PUT "/books/c66840b19c0fd17e0a512e697af300ce.json" for 127.0.0.1 at Sun Nov 07 13:11:58 -0500 2010
+
+
+Started PUT "/books/c66840b19c0fd17e0a512e697af2f817.json" for 127.0.0.1 at Sun Nov 07 13:11:58 -0500 2010
+
+
+Started DELETE "/books/c66840b19c0fd17e0a512e697af2ec49.xml" for 127.0.0.1 at Sun Nov 07 13:11:58 -0500 2010
+
+
+Started DELETE "/books/c66840b19c0fd17e0a512e697af2e34c.json" for 127.0.0.1 at Sun Nov 07 13:11:58 -0500 2010
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:13:41 -0500 2010
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:13:41 -0500 2010
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043123cc2.xml" for 127.0.0.1 at Sun Nov 07 13:13:41 -0500 2010
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043122dce.json" for 127.0.0.1 at Sun Nov 07 13:13:41 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:13:42 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:13:42 -0500 2010
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:13:42 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:13:42 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:13:42 -0500 2010
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:13:42 -0500 2010
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043122089.xml" for 127.0.0.1 at Sun Nov 07 13:13:42 -0500 2010
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504312191b.xml" for 127.0.0.1 at Sun Nov 07 13:13:43 -0500 2010
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043120eb2.json" for 127.0.0.1 at Sun Nov 07 13:13:43 -0500 2010
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043120379.json" for 127.0.0.1 at Sun Nov 07 13:13:43 -0500 2010
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd504311f38f.xml" for 127.0.0.1 at Sun Nov 07 13:13:43 -0500 2010
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd504311e781.json" for 127.0.0.1 at Sun Nov 07 13:13:43 -0500 2010
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:15:36 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 66ms (Views: 54.4ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:15:36 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 40ms (Views: 28.9ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd504331df01.xml" for 127.0.0.1 at Sun Nov 07 13:15:37 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504331df01"}
+Completed 200 OK in 6ms (Views: 0.9ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd504331d64a.json" for 127.0.0.1 at Sun Nov 07 13:15:37 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504331d64a"}
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:15:37 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 1ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:15:37 -0500 2010
+  Processing by BooksController#create as JSON
+Completed   in 0ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:15:37 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:15:37 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:15:37 -0500 2010
+  Processing by BooksController#create as XML
+Completed   in 1ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:15:37 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504331d155.xml" for 127.0.0.1 at Sun Nov 07 13:15:38 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504331d155", "book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504331cd02.xml" for 127.0.0.1 at Sun Nov 07 13:15:38 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504331cd02"}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504331bdce.json" for 127.0.0.1 at Sun Nov 07 13:15:38 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504331bdce", "book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504331adff.json" for 127.0.0.1 at Sun Nov 07 13:15:38 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504331adff"}
+Completed   in 6ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd504331a97b.xml" for 127.0.0.1 at Sun Nov 07 13:15:38 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504331a97b"}
+Completed   in 6ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd504331a3f3.json" for 127.0.0.1 at Sun Nov 07 13:15:38 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504331a3f3"}
+Completed   in 6ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:16:52 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 71ms (Views: 55.6ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:16:52 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 40ms (Views: 28.7ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd504350dfb9.xml" for 127.0.0.1 at Sun Nov 07 13:16:52 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504350dfb9"}
+Completed 200 OK in 6ms (Views: 0.9ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd504350d1b9.json" for 127.0.0.1 at Sun Nov 07 13:16:52 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504350d1b9"}
+Completed 200 OK in 6ms (Views: 0.5ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:16:52 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 1ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:16:52 -0500 2010
+  Processing by BooksController#create as JSON
+Completed   in 0ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:16:52 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:16:53 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:16:53 -0500 2010
+  Processing by BooksController#create as XML
+Completed   in 1ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:16:53 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504350c7cc.xml" for 127.0.0.1 at Sun Nov 07 13:16:53 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504350c7cc", "book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504350bc36.xml" for 127.0.0.1 at Sun Nov 07 13:16:53 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504350bc36"}
+Completed   in 5ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504350b98a.json" for 127.0.0.1 at Sun Nov 07 13:16:53 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504350b98a", "book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504350b78b.json" for 127.0.0.1 at Sun Nov 07 13:16:53 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504350b78b"}
+Completed   in 6ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd504350aef1.xml" for 127.0.0.1 at Sun Nov 07 13:16:54 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504350aef1"}
+Completed   in 6ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd504350a9b3.json" for 127.0.0.1 at Sun Nov 07 13:16:54 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504350a9b3"}
+Completed   in 6ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:18:41 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 77ms (Views: 62.6ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:18:41 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 40ms (Views: 28.9ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043702fb2.xml" for 127.0.0.1 at Sun Nov 07 13:18:42 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043702fb2"}
+Completed 200 OK in 6ms (Views: 0.9ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043702e67.json" for 127.0.0.1 at Sun Nov 07 13:18:42 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043702e67"}
+Completed 200 OK in 6ms (Views: 0.5ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:18:42 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 1ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:18:42 -0500 2010
+  Processing by BooksController#create as JSON
+Completed   in 0ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:18:42 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:18:42 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:18:42 -0500 2010
+  Processing by BooksController#create as XML
+Completed   in 0ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:18:43 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 0ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd50437025a3.xml" for 127.0.0.1 at Sun Nov 07 13:18:43 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50437025a3", "book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd50437015fa.xml" for 127.0.0.1 at Sun Nov 07 13:18:43 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50437015fa"}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd504370110c.json" for 127.0.0.1 at Sun Nov 07 13:18:43 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd504370110c", "book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd50437006e0.json" for 127.0.0.1 at Sun Nov 07 13:18:43 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50437006e0"}
+Completed   in 6ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043700145.xml" for 127.0.0.1 at Sun Nov 07 13:18:43 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043700145"}
+Completed   in 6ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd50436ff373.json" for 127.0.0.1 at Sun Nov 07 13:18:43 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50436ff373"}
+Completed   in 6ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:21:14 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 86ms (Views: 55.5ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:21:15 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 40ms (Views: 28.7ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd50438f505f.xml" for 127.0.0.1 at Sun Nov 07 13:21:15 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50438f505f"}
+Completed 200 OK in 6ms (Views: 0.9ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd50438f46e9.json" for 127.0.0.1 at Sun Nov 07 13:21:15 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50438f46e9"}
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:21:15 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 1ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:21:15 -0500 2010
+  Processing by BooksController#create as JSON
+Completed   in 1ms
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:21:15 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 1ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:21:15 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 1ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:21:16 -0500 2010
+  Processing by BooksController#create as XML
+Completed   in 1ms
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:21:16 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed   in 1ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd50438f45b8.xml" for 127.0.0.1 at Sun Nov 07 13:21:16 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50438f45b8", "book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd50438f3e69.xml" for 127.0.0.1 at Sun Nov 07 13:21:16 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50438f3e69"}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd50438f311e.json" for 127.0.0.1 at Sun Nov 07 13:21:16 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50438f311e", "book"=>{"title"=>"My Book Title"}}
+Completed   in 6ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd50438f2b8c.json" for 127.0.0.1 at Sun Nov 07 13:21:16 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50438f2b8c"}
+Completed   in 6ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd50438f2024.xml" for 127.0.0.1 at Sun Nov 07 13:21:16 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50438f2024"}
+Completed   in 6ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd50438f14ce.json" for 127.0.0.1 at Sun Nov 07 13:21:17 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd50438f14ce"}
+Completed   in 6ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:22:12 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 74ms (Views: 57.1ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:22:13 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 41ms (Views: 29.0ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043adda50.xml" for 127.0.0.1 at Sun Nov 07 13:22:13 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043adda50"}
+Completed 200 OK in 6ms (Views: 1.0ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043adcc97.json" for 127.0.0.1 at Sun Nov 07 13:22:13 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043adcc97"}
+Completed 200 OK in 6ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:22:13 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:22:13 -0500 2010
+  Processing by BooksController#create as JSON
+Completed 422 Unprocessable Entity in 6ms (Views: 0.2ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:22:13 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 56ms (Views: 50.0ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:22:13 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.8ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:22:14 -0500 2010
+  Processing by BooksController#create as XML
+Completed 422 Unprocessable Entity in 3ms (Views: 1.0ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:22:14 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.5ms)
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043ada8c2.xml" for 127.0.0.1 at Sun Nov 07 13:22:14 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ada8c2", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043ada5ab.xml" for 127.0.0.1 at Sun Nov 07 13:22:14 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ada5ab"}
+Completed   in 5ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043ad9ef5.json" for 127.0.0.1 at Sun Nov 07 13:22:14 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ad9ef5", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043ad904e.json" for 127.0.0.1 at Sun Nov 07 13:22:14 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ad904e"}
+Completed   in 5ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043ad899d.xml" for 127.0.0.1 at Sun Nov 07 13:22:14 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ad899d"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043ad8402.json" for 127.0.0.1 at Sun Nov 07 13:22:15 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043ad8402"}
+Completed 200 OK in 10ms
+
+
+Started GET "/books.json" for 127.0.0.1 at Sun Nov 07 13:24:58 -0500 2010
+  Processing by BooksController#index as JSON
+Completed 200 OK in 70ms (Views: 55.7ms)
+
+
+Started GET "/books.xml" for 127.0.0.1 at Sun Nov 07 13:24:58 -0500 2010
+  Processing by BooksController#index as XML
+Completed 200 OK in 39ms (Views: 28.5ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043cca77a.xml" for 127.0.0.1 at Sun Nov 07 13:24:58 -0500 2010
+  Processing by BooksController#show as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cca77a"}
+Completed 200 OK in 6ms (Views: 0.9ms)
+
+
+Started GET "/books/be8903d3b2f29cd350a8bd5043cc9db4.json" for 127.0.0.1 at Sun Nov 07 13:24:58 -0500 2010
+  Processing by BooksController#show as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cc9db4"}
+Completed 200 OK in 6ms (Views: 0.4ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:24:58 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.2ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:24:58 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms)
+
+
+Started POST "/books.json" for 127.0.0.1 at Sun Nov 07 13:24:59 -0500 2010
+  Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 53ms (Views: 1.0ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:24:59 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 7ms (Views: 1.5ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:24:59 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms)
+
+
+Started POST "/books.xml" for 127.0.0.1 at Sun Nov 07 13:24:59 -0500 2010
+  Processing by BooksController#create as XML
+  Parameters: {"book"=>{"title"=>"My Book Title"}}
+Completed 201 Created in 8ms (Views: 1.5ms)
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043cc66ad.xml" for 127.0.0.1 at Sun Nov 07 13:24:59 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cc66ad", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043cc583a.xml" for 127.0.0.1 at Sun Nov 07 13:24:59 -0500 2010
+  Processing by BooksController#update as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cc583a", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 1.2ms)
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043cc4f01.json" for 127.0.0.1 at Sun Nov 07 13:24:59 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cc4f01", "book"=>{"title"=>"My Book Title"}}
+Completed 200 OK in 11ms
+
+
+Started PUT "/books/be8903d3b2f29cd350a8bd5043cc42a9.json" for 127.0.0.1 at Sun Nov 07 13:25:00 -0500 2010
+  Processing by BooksController#update as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cc42a9", "book"=>{"title"=>nil}}
+Completed 422 Unprocessable Entity in 8ms (Views: 0.2ms)
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043cc4118.xml" for 127.0.0.1 at Sun Nov 07 13:25:00 -0500 2010
+  Processing by BooksController#destroy as XML
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cc4118"}
+Completed 200 OK in 11ms
+
+
+Started DELETE "/books/be8903d3b2f29cd350a8bd5043cc31e0.json" for 127.0.0.1 at Sun Nov 07 13:25:00 -0500 2010
+  Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"be8903d3b2f29cd350a8bd5043cc31e0"}
+Completed 200 OK in 11ms

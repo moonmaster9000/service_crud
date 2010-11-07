@@ -12,7 +12,7 @@ module ServiceCrud
 
     def model_attribute_root(root=nil)
       @model_attribute_root ||= root
-      @model_attribute_root || @model.to_s.underscore.to_sym
+      @model_attribute_root || self.model.to_s.underscore.to_sym
     end
 
     def orm_methods!(orm_module)
@@ -88,11 +88,11 @@ module ServiceCrud
   # POST /your_model.json
   def create
     @model = self.class.model.send self.class.orm_methods.new, params[self.class.model_attribute_root] 
-    self.run_service_crud_before_create_callbacks @model
+    run_service_crud_before_callbacks @model
 
     respond_to do |format|
       if @model.send self.class.orm_methods.save
-        self.run_service_crud_after_create_callbacks @model
+        run_service_crud_after_callbacks @model
         format.xml  { render :xml => @model, :status => :created, :location => @model }
         format.json { render :json => @model, :status => :created, :location => @model }
       else
@@ -106,11 +106,11 @@ module ServiceCrud
   # PUT /your_model/1.json
   def update
     @model = self.class.model.send self.class.orm_methods.find, params[:id] 
-    self.run_service_crud_before_update_callbacks @model
+    run_service_crud_before_callbacks @model
 
     respond_to do |format|
       if @model.send self.class.orm_methods.update_attributes, params[self.class.model_attribute_root]
-        self.run_service_crud_after_update_callbacks @model
+        run_service_crud_after_callbacks @model
         format.xml  { head :ok }
         format.json { head :ok }
       else
@@ -124,9 +124,9 @@ module ServiceCrud
   # DELETE /your_model/1.json
   def destroy
     @model = self.class.model.send self.class.orm_methods.find, params[:id]
-    self.run_service_crud_before_destroy_callbacks @model
+    run_service_crud_before_callbacks @model
     @model.send self.class.orm_methods.destroy
-    self.run_service_crud_after_destroy_callbacks @model
+    run_service_crud_after_callbacks @model
  
     respond_to do |format|
       format.xml  { head :ok }
