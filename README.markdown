@@ -28,6 +28,23 @@ Next, create the following controller in RAILS_ROOT/app/books_controller.rb:
 
 That's it. You can now GET, POST, PUT, and DELETE books through the standard RESTful urls.
 
+## Callbacks
+
+Sometimes you need to do a little extra work on your data before/after you create/update/destroy. And sometimes that can't be pushed down to the ORM layer. 
+For example, suppose we want to set the `:updated_by` property on our model to the `current_user`. We could simply: 
+
+  class BooksController
+    include ServiceCrud
+    before_update :set_updated_by
+
+    private
+    def set_updated_by(model)
+      model.update_by = current_user
+    end
+  end
+
+ServiceCrud supports the following callbacks: `before_create`, `after_create`, `before_update`, `after_update`, `before_destroy`, and `after_destroy`. 
+
 ## Model Guessing
 
 The `service_crud` library will look at the controller name and try to guess the model (e.g., "BooksController" -> "Book").
