@@ -1,3 +1,4 @@
+test_service_crud_app/log/*.log
 */.bundle
 pkg/
 *.swp
