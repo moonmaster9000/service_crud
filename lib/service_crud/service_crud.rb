@@ -79,8 +79,14 @@ module ServiceCrud
     @model = self.class.model.send self.class.orm_methods.find, params[:id] 
 
     respond_to do |format|
-      format.xml  { render :xml => @model }
-      format.json { render :json => @model }
+      format.xml  do 
+        render :status => 404, :text => "" and return unless @model
+        render :xml => @model
+      end
+      format.json do 
+        render :status => 404, :text => "" and return unless @model
+        render :json => @model
+      end
     end
   end
 

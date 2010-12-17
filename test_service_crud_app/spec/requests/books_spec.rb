@@ -35,10 +35,15 @@ describe "Book Signups Service" do
         @book = Book.create :title => "My Book Title" 
       end
 
-      describe "GET /books/:id.json" do
-        it "return the requested book as json" do
+      describe "GET /books/:id.xml" do
+        it "return the requested book as xml" do
           get "/books/#{@book.id}.xml"
           last_response.body.should == Book.first.to_xml
+        end
+
+        it "return a 404 when the book is not found" do
+          get "/books/jkfdlsajkfdsa.xml"
+          last_response.status.should == 404
         end
       end
 

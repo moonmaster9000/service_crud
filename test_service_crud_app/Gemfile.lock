@@ -1,7 +1,7 @@
 PATH
   remote: ../
   specs:
-    service_crud (0.0.0)
+    service_crud (0.0.1)
       rails (>= 3.0)
 
 GEM
