@@ -18,14 +18,14 @@ describe "My Books Service" do
       describe "GET /my_books.json" do
         it "return all signups in json" do
           get '/my_books.json'
-          last_response.body.should == Book.all.to_json
+          response.body.should == Book.all.to_json
         end
       end
 
       describe "GET /my_books.xml" do
         it "return all signups in xml" do
           get '/my_books.xml'
-          last_response.body.should == Book.all.to_xml
+          response.body.should == Book.all.to_xml
         end
       end
     end
@@ -38,14 +38,14 @@ describe "My Books Service" do
       describe "GET /my_books/:id.json" do
         it "return the requested book as json" do
           get "/my_books/#{@book.id}.xml"
-          last_response.body.should == Book.first.to_xml
+          response.body.should == Book.first.to_xml
         end
       end
 
       describe "GET /my_books/:id.json" do
         it "return the requested book as json" do
           get "/my_books/#{@book.id}.json"
-          last_response.body.should == Book.first.to_json
+          response.body.should == Book.first.to_json
         end
       end
     end
@@ -55,19 +55,19 @@ describe "My Books Service" do
     describe "POST /my_books.json" do
       it "create a newsletter signup from the json body" do
         post '/my_books.json', @book_json, "CONTENT_TYPE" => 'application/json'
-        last_response.body.should == Book.all.first.to_json
+        response.body.should == Book.all.first.to_json
         Book.first.updated_by.should be_nil
       end
 
       it "return errors as json if the POST request was invalid" do
         post "/my_books.json", @invalid_book_json, "CONTENT_TYPE" => 'application/json'
-        last_response.body.should == %{{"errors":["Title can't be blank"]}}
+        response.body.should == %{{"errors":["Title can't be blank"]}}
       end
 
       it "set the location header to the url of the newly created book" do
         post "/my_books.json", @book_json, "CONTENT_TYPE" => 'application/json'
-        puts "last_response.headers = #{last_response.headers.inspect}"
-        last_response.headers["Location"].include?("/my_books/#{Book.first.id}").should be_true
+        puts "response.headers = #{response.headers.inspect}"
+        response.headers["Location"].include?("/my_books/#{Book.first.id}").should be_true
 
       end
     end
@@ -75,12 +75,12 @@ describe "My Books Service" do
     describe "POST /my_books.xml" do
       it "create a newsletter signup from the xml body" do
         post '/my_books.xml', @book_xml, "CONTENT_TYPE" => 'application/xml'
-        last_response.body.should == Book.all.first.to_xml
+        response.body.should == Book.all.first.to_xml
       end
 
       it "return errors as xml if the POST request was invalid" do
         post "/my_books.xml", @invalid_book_xml, "CONTENT_TYPE" => 'application/xml'
-        last_response.body.split.should == (<<-XML
+        response.body.split.should == (<<-XML
           <?xml version="1.0" encoding="UTF-8"?>
           <errors>
             <error>Title can't be blank</error>
@@ -91,8 +91,8 @@ describe "My Books Service" do
 
       it "set the location header to the url of the newly created book" do
         post "/my_books.xml", @book_xml, "CONTENT_TYPE" => 'application/xml'
-        puts "last_response.headers = #{last_response.headers.inspect}"
-        last_response.headers["Location"].include?("/my_books/#{Book.first.id}").should be_true
+        puts "response.headers = #{response.headers.inspect}"
+        response.headers["Location"].include?("/my_books/#{Book.first.id}").should be_true
       end
     end
   end
@@ -110,7 +110,7 @@ describe "My Books Service" do
       
       it "return errors as xml if the PUT request was invalid" do
         put "/my_books/#{@book.id}.xml", @invalid_book_xml, "CONTENT_TYPE" => 'application/xml'
-        last_response.body.split.should == (<<-XML
+        response.body.split.should == (<<-XML
           <?xml version="1.0" encoding="UTF-8"?>
           <errors>
             <error>Title can't be blank</error>
@@ -129,7 +129,7 @@ describe "My Books Service" do
       
       it "return errors as json if the PUT request was invalid" do
         put "/my_books/#{@book.id}.json", @invalid_book_json, "CONTENT_TYPE" => 'application/json'
-        last_response.body.should == %{{"errors":["Title can't be blank"]}}
+        response.body.should == %{{"errors":["Title can't be blank"]}}
       end
     end
   end

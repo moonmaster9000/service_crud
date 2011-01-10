@@ -112,7 +112,7 @@ module ServiceCrud
   # PUT /your_model/1.xml
   # PUT /your_model/1.json
   def update
-    @model = self.class.model.send self.class.orm_methods.find, params[:id] 
+    @model = self.class.model.send self.class.orm_methods.find, CGI.unescape(params[:id]) 
     run_service_crud_before_callbacks @model
 
     respond_to do |format|
