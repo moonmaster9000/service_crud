@@ -96,6 +96,18 @@ describe "Book Signups Service" do
         response.headers["Location"].include?("/books/#{Book.first.id}").should be_true
       end
     end
+
+    describe "POST /books.xml with space in doc id" do
+      before do
+        @book_xml = {:title => "Good Book", :id => "good book"}.to_xml :root => :book
+      end
+
+      it "set the location header to the url of the newly created book" do
+        post "/books.xml", @book_xml, "CONTENT_TYPE" => 'application/xml'
+        response.headers["Location"].should == "/books/" + CGI.escape("good book")
+      end
+
+    end
   end
 
   describe "UPDATE" do

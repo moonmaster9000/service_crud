@@ -99,7 +99,7 @@ module ServiceCrud
     respond_to do |format|
       if @model.send self.class.orm_methods.save
         run_service_crud_after_callbacks @model
-        location = "/#{controller_name}/#{@model.id}"
+        location = "/#{controller_name}/#{CGI.escape(@model.id)}"
         format.xml  { render :xml => @model, :status => :created, :location => location }
         format.json { render :json => @model, :status => :created, :location => location }
       else
