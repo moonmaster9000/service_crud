@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{service_crud}
-  s.version = "0.0.2"
+  s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Parker"]
-  s.date = %q{2010-12-17}
+  s.date = %q{2011-01-11}
   s.description = %q{A simple mixin for providing crud actions for a RESTful, ActiveResource style service (xml and json).}
   s.email = %q{moonmaster9000@gmail.com}
   s.extra_rdoc_files = [
